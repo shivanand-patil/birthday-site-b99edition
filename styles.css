@@ -1,0 +1,85 @@
+body {
+    color: rgb(255, 248, 43);
+    background-image: url("jake.jpg");
+    background-size:cover;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    
+}
+#image  {
+    width: 150px;
+    border-radius: 50%;
+    border: 0px solid rgb(196, 101, 225);
+}
+h1, h2, h3 {
+    text-shadow: 0px 0px 1px black;
+}
+#age{
+    color: whitesmoke;
+    background-color: #EFB0C9;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#date{
+    color: whitesmoke;
+    background-color: #EFB0C9;
+    padding: 5px;
+    margin-top: 0px;
+    border-radius: 5px;
+
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gift {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    margin: 0 auto  ;
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 400px;
+    width: 600px;
+    background-image: url("b99.jpg");
+    align-items: center;
+    background-size: cover;
+}
+#card-img-first:hover {
+    background-image: url("https://media.tenor.com/Iyx5R6cwY0gAAAAM/b99gif-brooklyn99.gif");
+
+}
+#card-img-second:hover {
+    background-image: url("https://media.tenor.com/JMJlnwMMF1oAAAAM/brooklyn-nine-nine-jake-peralta.gif");
+
+}
+#card-img-third:hover {
+    background-image: url("https://media.tenor.com/oGp7QSlWmNsAAAAC/brooklyn99-noice.gif");
+
+}
+#card-img-fourth:hover {
+    background-image: url("https://media.tenor.com/xhMV5QKsAjcAAAAM/sushichaeng-knife.gif");
+
+}
+#card-img-fifth {
+    height: 300px;
+}
+#card-img-fifth:hover {
+    background-image: url("https://media.tenor.com/hNc_892SgIcAAAAM/hot-damn-99.gif");
+
+}
+#footer {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.span {
+    color: rgb(80, 66, 66);
+    text-decoration: underline;
+}
